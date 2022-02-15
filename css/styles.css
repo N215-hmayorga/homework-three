@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: gillSans;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: gillSans;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: proximaNova;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: white 2px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99px;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo-white.png);
+}
+nav .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+nav .links span {
+  color: white;
+  margin: 0 20px;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  margin: -80px auto 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner .title {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 152px;
+}
+.banner .title h1 {
+  font-size: 60px;
+  font-family: proximaNova;
+}
+.banner .title h3 {
+  font-size: 20px;
+}
+.banner .title .button {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  font-size: 12px;
+  margin: 0 auto;
+  position: relative;
+  top: 28px;
+  text-align: center;
+}
+.banner .title .button h2 {
+  padding: 10px;
+}
+
+.promo {
+  max-width: 980px;
+  margin: -50px auto 0 auto;
+  padding-bottom: 40px;
+}
+.promo .promo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 81px;
+  margin-right: 81px;
+}
+.promo .promo-container .box {
+  width: 236px;
+  height: 304px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+.promo .promo-container .box .content {
+  position: relative;
+  top: 37px;
+}
+.promo .promo-container .box .content h2 {
+  font-size: 60px;
+  font-family: proximaNova;
+}
+.promo .promo-container .box .content h3 {
+  font-family: proximaNova;
+  font-size: 30px;
+  position: relative;
+  top: -30px;
+}
+.promo .promo-container .box .content .button {
+  width: 133px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+}
+.promo .promo-container .box .content .button h2 {
+  font-family: gillSans;
+  font-size: 15px;
+  padding: 10px;
+}
+.promo .promo-container #isarel {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+}
+.promo .promo-container #usa {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+}
+.promo .promo-container #australia {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+}
+
+.form-content {
+  max-width: 818px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.form-content h1 {
+  font-size: 60px;
+  padding-bottom: 31px;
+}
+.form-content .top-box {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-content .top-box .long-box {
+  width: 453px;
+}
+.form-content .top-box .cal-box {
+  width: 698px;
+}
+.form-content .top-box .small-box {
+  width: 103px;
+}
+.form-content .top-box .holder {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: -35px;
+  left: 660px;
+}
+.form-content .top-box .down-holder {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: -35px;
+  left: 60px;
+}
+.form-content .top-box .message {
+  width: 818px;
+  height: 192px;
+  padding-left: 10px;
+  border: 2px solid #79ADDC;
+  color: black;
+  font-size: 18px;
+}
+.form-content .top-box input {
+  width: 344px;
+  height: 58px;
+  padding-left: 10px;
+  border-color: #79ADDC;
+  border-style: solid;
+  color: black;
+  font-size: 18px;
+}
+.form-content .button {
+  width: 813px;
+  height: 60px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 37px;
+  margin-bottom: 100px;
+  color: white;
+  font-size: 15px;
+}
+.form-content .button h2 {
+  padding: 20px;
+}
+
+footer {
+  max-width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+footer .footer-wrap {
+  width: 980px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer-wrap .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo-white.png);
+}
+footer .footer-wrap p {
+  font-size: 12px;
+}
+footer .footer-wrap .socials {
+  margin-left: 21px;
+}
+footer .footer-wrap .socials .icons {
+  width: 22px;
+  height: 22px;
+}

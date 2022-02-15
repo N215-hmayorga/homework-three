@@ -1,0 +1,75 @@
+.form-content {
+    max-width: $home-form-width;
+  //  background-color: green;
+    min-height: 200px;
+    margin: 0 auto;
+    h1{
+        font-size: 60px;
+        padding-bottom: 31px;
+    }
+    .top-box {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .long-box {
+            width: 453px;
+        }
+        .cal-box {
+            width: 698px;
+        }
+        .small-box {
+            width: 103px;
+        }
+        .holder {
+            width: 19px;
+            height: 19px;
+           // background-color: orange;
+            position: relative;
+            top: -35px;
+            left: 660px;
+        }
+        .down-holder {
+            width: 19px;
+            height: 19px;
+          //  background-color: orange;
+            position: relative;
+            top: -35px;
+            left: 60px; 
+        }
+        .message {
+            width: 818px;
+            height: 192px;
+            padding-left: 10px;
+            border: 2px solid $site-blue;
+            color: $site-black;
+            font-size: 18px;
+            
+        }
+        input {
+            width: 344px;
+            height: $input-height;
+            padding-left: 10px;
+            border-color: $site-blue;
+            border-style: solid;
+            color: $site-black;
+            font-size: 18px;
+        }
+    }
+    .button {
+        width: 813px;
+        height: 60px;
+        background-color: $site-blue;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 30px;
+        margin-top: 37px;
+        margin-bottom: 100px;
+        color: $site-white;
+        font-size: 15px;
+        h2 {
+            padding: 20px;
+        }
+
+    }
+}

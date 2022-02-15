@@ -1,0 +1,43 @@
+.banner {
+    max-width: $banner-footer-width;
+    height: $banner-height;
+    background-image: 
+    linear-gradient(
+        rgba($site-black,.5),
+        rgba($site-black,.5)
+        ), 
+        url(../images/hero.jpg);
+    margin: -80px auto 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .title {
+        margin: 0 auto;
+       // background-color: lightblue;
+        //min-height: $banner-height;
+        text-align: center;
+        color: $site-white;
+        position: relative;
+        top: 152px;
+        h1 {
+            font-size: 60px;
+            font-family: proximaNova;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        .button {
+            width: 121px;
+            height: 40px;
+            background-color: $site-blue;
+            font-size: 12px;
+            margin: 0 auto;
+            position: relative;
+            top: 28px;
+            text-align: center;
+            h2 {
+                padding: 10px;
+            }
+        }
+    }
+}

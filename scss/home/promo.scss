@@ -1,0 +1,66 @@
+.promo {
+    max-width: $site-width;
+    //  min-height: 400px;
+    //  background-color: green;
+    margin: -50px auto 0 auto;
+    padding-bottom: 40px;
+    .promo-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 81px;
+        margin-right: 81px;
+
+        // background-color: blue;
+        .box {
+            width: $promo-box-width;
+            height: $promo-box-height;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: $site-white;
+            text-align: center;
+            .content {
+                position: relative;
+                top: 37px;
+                h2 {
+                    font-size: 60px;
+                    font-family: proximaNova;
+                }
+                h3 {
+                    font-family: proximaNova;
+                    font-size: 30px;
+                    position: relative;
+                    top: -30px;
+                }
+                .button {
+                    width: 133px;
+                    height: 40px;
+                    border-radius: 20px;
+                    background-color: $site-blue;
+                    margin: 0 auto;
+                    h2 {
+                        font-family: gillSans;
+                        font-size: 15px;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+
+        #isarel {
+            background-image: linear-gradient(rgba($site-black, .5),
+                    rgba($site-black, .5)), url(../images/tour-01.jpg);
+        }
+
+        #usa {
+            background-image: linear-gradient(rgba($site-black, .5),
+                    rgba($site-black, .5)), url(../images/tour-02.jpg);
+        }
+
+        #australia {
+            background-image: linear-gradient(rgba($site-black, .5),
+                    rgba($site-black, .5)), url(../images/tour-03.jpg);
+        }
+    }
+}
